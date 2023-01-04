@@ -5,5 +5,5 @@ with open("loubna.txt", "r") as f:
 
 from collections import Counter
 counts = Counter(words)
-top5 = counts.most_common(5)
-print(top5)
+top6 = counts.most_common(5)
+print(top6)
